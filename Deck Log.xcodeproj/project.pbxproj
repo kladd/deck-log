@@ -24,25 +24,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DAE38F792D2DF75A00E60FB9 /* start.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = start.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAE38F8A2D2DF75B00E60FB9 /* startTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = startTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAE38F942D2DF75B00E60FB9 /* startUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = startUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE38F792D2DF75A00E60FB9 /* Deck Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deck Log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE38F8A2D2DF75B00E60FB9 /* tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE38F942D2DF75B00E60FB9 /* uitests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uitests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		DAE38F7B2D2DF75A00E60FB9 /* start */ = {
+		DAE38F7B2D2DF75A00E60FB9 /* src */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = start;
+			path = src;
 			sourceTree = "<group>";
 		};
-		DAE38F8D2D2DF75B00E60FB9 /* startTests */ = {
+		DAE38F8D2D2DF75B00E60FB9 /* tests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = startTests;
+			path = tests;
 			sourceTree = "<group>";
 		};
-		DAE38F972D2DF75B00E60FB9 /* startUITests */ = {
+		DAE38F972D2DF75B00E60FB9 /* uitests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = startUITests;
+			path = uitests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		DAE38F702D2DF75A00E60FB9 = {
 			isa = PBXGroup;
 			children = (
-				DAE38F7B2D2DF75A00E60FB9 /* start */,
-				DAE38F8D2D2DF75B00E60FB9 /* startTests */,
-				DAE38F972D2DF75B00E60FB9 /* startUITests */,
+				DAE38F7B2D2DF75A00E60FB9 /* src */,
+				DAE38F8D2D2DF75B00E60FB9 /* tests */,
+				DAE38F972D2DF75B00E60FB9 /* uitests */,
 				DAE38F7A2D2DF75A00E60FB9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		DAE38F7A2D2DF75A00E60FB9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DAE38F792D2DF75A00E60FB9 /* start.app */,
-				DAE38F8A2D2DF75B00E60FB9 /* startTests.xctest */,
-				DAE38F942D2DF75B00E60FB9 /* startUITests.xctest */,
+				DAE38F792D2DF75A00E60FB9 /* Deck Log.app */,
+				DAE38F8A2D2DF75B00E60FB9 /* tests.xctest */,
+				DAE38F942D2DF75B00E60FB9 /* uitests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DAE38F782D2DF75A00E60FB9 /* start */ = {
+		DAE38F782D2DF75A00E60FB9 /* Deck Log */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAE38F9E2D2DF75B00E60FB9 /* Build configuration list for PBXNativeTarget "start" */;
+			buildConfigurationList = DAE38F9E2D2DF75B00E60FB9 /* Build configuration list for PBXNativeTarget "Deck Log" */;
 			buildPhases = (
 				DAE38F752D2DF75A00E60FB9 /* Sources */,
 				DAE38F762D2DF75A00E60FB9 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				DAE38F7B2D2DF75A00E60FB9 /* start */,
+				DAE38F7B2D2DF75A00E60FB9 /* src */,
 			);
-			name = start;
+			name = "Deck Log";
 			packageProductDependencies = (
 			);
 			productName = start;
-			productReference = DAE38F792D2DF75A00E60FB9 /* start.app */;
+			productReference = DAE38F792D2DF75A00E60FB9 /* Deck Log.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DAE38F892D2DF75B00E60FB9 /* startTests */ = {
+		DAE38F892D2DF75B00E60FB9 /* tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAE38FA12D2DF75B00E60FB9 /* Build configuration list for PBXNativeTarget "startTests" */;
+			buildConfigurationList = DAE38FA12D2DF75B00E60FB9 /* Build configuration list for PBXNativeTarget "tests" */;
 			buildPhases = (
 				DAE38F862D2DF75B00E60FB9 /* Sources */,
 				DAE38F872D2DF75B00E60FB9 /* Frameworks */,
@@ -131,18 +131,18 @@
 				DAE38F8C2D2DF75B00E60FB9 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				DAE38F8D2D2DF75B00E60FB9 /* startTests */,
+				DAE38F8D2D2DF75B00E60FB9 /* tests */,
 			);
-			name = startTests;
+			name = tests;
 			packageProductDependencies = (
 			);
 			productName = startTests;
-			productReference = DAE38F8A2D2DF75B00E60FB9 /* startTests.xctest */;
+			productReference = DAE38F8A2D2DF75B00E60FB9 /* tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DAE38F932D2DF75B00E60FB9 /* startUITests */ = {
+		DAE38F932D2DF75B00E60FB9 /* uitests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAE38FA42D2DF75B00E60FB9 /* Build configuration list for PBXNativeTarget "startUITests" */;
+			buildConfigurationList = DAE38FA42D2DF75B00E60FB9 /* Build configuration list for PBXNativeTarget "uitests" */;
 			buildPhases = (
 				DAE38F902D2DF75B00E60FB9 /* Sources */,
 				DAE38F912D2DF75B00E60FB9 /* Frameworks */,
@@ -154,13 +154,13 @@
 				DAE38F962D2DF75B00E60FB9 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				DAE38F972D2DF75B00E60FB9 /* startUITests */,
+				DAE38F972D2DF75B00E60FB9 /* uitests */,
 			);
-			name = startUITests;
+			name = uitests;
 			packageProductDependencies = (
 			);
 			productName = startUITests;
-			productReference = DAE38F942D2DF75B00E60FB9 /* startUITests.xctest */;
+			productReference = DAE38F942D2DF75B00E60FB9 /* uitests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DAE38F742D2DF75A00E60FB9 /* Build configuration list for PBXProject "start" */;
+			buildConfigurationList = DAE38F742D2DF75A00E60FB9 /* Build configuration list for PBXProject "Deck Log" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DAE38F782D2DF75A00E60FB9 /* start */,
-				DAE38F892D2DF75B00E60FB9 /* startTests */,
-				DAE38F932D2DF75B00E60FB9 /* startUITests */,
+				DAE38F782D2DF75A00E60FB9 /* Deck Log */,
+				DAE38F892D2DF75B00E60FB9 /* tests */,
+				DAE38F932D2DF75B00E60FB9 /* uitests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		DAE38F8C2D2DF75B00E60FB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DAE38F782D2DF75A00E60FB9 /* start */;
+			target = DAE38F782D2DF75A00E60FB9 /* Deck Log */;
 			targetProxy = DAE38F8B2D2DF75B00E60FB9 /* PBXContainerItemProxy */;
 		};
 		DAE38F962D2DF75B00E60FB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DAE38F782D2DF75A00E60FB9 /* start */;
+			target = DAE38F782D2DF75A00E60FB9 /* Deck Log */;
 			targetProxy = DAE38F952D2DF75B00E60FB9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -392,20 +392,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = start/start.entitlements;
+				CODE_SIGN_ENTITLEMENTS = src/DeckLog.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"start/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"src/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Deck Log";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ntuser32.start;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ntuser32.decklog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -417,20 +418,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = start/start.entitlements;
+				CODE_SIGN_ENTITLEMENTS = src/DeckLog.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"start/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"src/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Deck Log";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ntuser32.start;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ntuser32.decklog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -504,7 +506,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DAE38F742D2DF75A00E60FB9 /* Build configuration list for PBXProject "start" */ = {
+		DAE38F742D2DF75A00E60FB9 /* Build configuration list for PBXProject "Deck Log" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAE38F9C2D2DF75B00E60FB9 /* Debug */,
@@ -513,7 +515,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAE38F9E2D2DF75B00E60FB9 /* Build configuration list for PBXNativeTarget "start" */ = {
+		DAE38F9E2D2DF75B00E60FB9 /* Build configuration list for PBXNativeTarget "Deck Log" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAE38F9F2D2DF75B00E60FB9 /* Debug */,
@@ -522,7 +524,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAE38FA12D2DF75B00E60FB9 /* Build configuration list for PBXNativeTarget "startTests" */ = {
+		DAE38FA12D2DF75B00E60FB9 /* Build configuration list for PBXNativeTarget "tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAE38FA22D2DF75B00E60FB9 /* Debug */,
@@ -531,7 +533,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAE38FA42D2DF75B00E60FB9 /* Build configuration list for PBXNativeTarget "startUITests" */ = {
+		DAE38FA42D2DF75B00E60FB9 /* Build configuration list for PBXNativeTarget "uitests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DAE38FA52D2DF75B00E60FB9 /* Debug */,

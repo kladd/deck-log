@@ -1,10 +1,3 @@
-//
-//  startUITestsLaunchTests.swift
-//  startUITests
-//
-//  Created by Kyle Ladd on 1/7/25.
-//
-
 import XCTest
 
 final class startUITestsLaunchTests: XCTestCase {
