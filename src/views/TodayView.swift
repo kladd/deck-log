@@ -11,8 +11,7 @@ struct LogWriteView: View {
 
     var body: some View {
         HStack {
-            Text(Date().formatted(date: .omitted, time: .shortened))
-                .monospaced()
+            LogEntryTimeView(date: Date())
             TextField("message", text: $message)
                 .textFieldStyle(.plain)
                 .onSubmit {
@@ -57,8 +56,7 @@ struct TodayView: View {
 
             ForEach(entries, id: \.self) { entry in
                 HStack {
-                    Text(entry.timestamp.formatted(date: .omitted, time: .shortened))
-                        .monospaced()
+                    LogEntryTimeView(date: entry.timestamp)
                     Text(entry.message)
                     Spacer()
                 }

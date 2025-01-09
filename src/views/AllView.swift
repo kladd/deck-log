@@ -18,8 +18,7 @@ struct AllView: View {
 
             ForEach(entries) { entry in
                 HStack {
-                    Text(entry.timestamp.formatted(date: .omitted, time: .shortened))
-                        .monospaced()
+                    LogEntryTimeView(date: entry.timestamp)
                     Text(entry.message)
                     Spacer()
                 }
