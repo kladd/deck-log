@@ -18,7 +18,6 @@ struct ContentView: View {
             }
         }
         .tabViewStyle(.sidebarAdaptable)
-        .symbolRenderingMode(.hierarchical)
     }
 }
 
